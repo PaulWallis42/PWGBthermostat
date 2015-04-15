@@ -9,4 +9,9 @@ describe('Thermostat', function() {
     expect('#temperature').toContainText('20');
   });
 
+ //  it('increases temperature with up button', function(){
+ //   $("input#up").click();
+ //   expect('#temperature').toContainText('21');
+ // });
+
 });
