@@ -26,9 +26,9 @@ describe('Thermostat', function() {
     expect('#temperature').toContainText('20');
   });
 
-  it ("should css check colour", function() {
+  it("should show temperature in yellow if temp between 18 and 24", function() {
     expect($('#temperature').css("color")).toEqual('rgb(255, 255, 0)');
-
   });
+
 
 });

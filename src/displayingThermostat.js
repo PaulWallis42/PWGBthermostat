@@ -2,7 +2,7 @@
 
  var thermostat = new Thermostat();
 
- $("#temperature").html(thermostat.temperature());
+ $("#temperature").text(thermostat.temperature());
 
 
  $("#up").click(function() {

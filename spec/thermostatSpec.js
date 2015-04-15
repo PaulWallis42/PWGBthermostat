@@ -73,7 +73,7 @@ describe('Thermostat', function(){
       expect(thermostat.colour()).toEqual("yellow");
     });
 
-    it('has a colour of red when the temp is greater than 25', function(){
+    it('has a colour of red when the temp is greater than 24', function(){
       thermostat.powersaveOff();
       for (i = 0; i < 6; i++){
         thermostat.up();
