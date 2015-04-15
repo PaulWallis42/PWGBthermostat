@@ -19,4 +19,11 @@ describe('Thermostat', function() {
     expect('#temperature').toContainText('19');
   });
 
+  it('can reset the temperature to 20 by hitting the reset button', function(){
+    $("#up").click();
+    $("#up").click();
+    $("#reset").click()
+    expect('#temperature').toContainText('20');
+  });
+
 });

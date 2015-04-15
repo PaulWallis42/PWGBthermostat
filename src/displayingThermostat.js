@@ -6,12 +6,17 @@
 
 
  $( "#up" ).click(function() {
-    thermostat.up(); 
+    thermostat.up();
  $("#temperature").text(thermostat.temperature());
   });
 
  $( "#down" ).click(function() {
-    thermostat.down(); 
+    thermostat.down();
  $("#temperature").text(thermostat.temperature());
   });
+
+  $( "#reset" ).click(function() {
+     thermostat.resetTemp(); 
+  $("#temperature").text(thermostat.temperature());
+   });
 // });
