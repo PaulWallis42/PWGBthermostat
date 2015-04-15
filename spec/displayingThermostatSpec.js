@@ -26,4 +26,5 @@ describe('Thermostat', function() {
     expect('#temperature').toContainText('20');
   });
 
+
 });
