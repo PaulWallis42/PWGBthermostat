@@ -20,7 +20,7 @@
   $("#temperature").text(thermostat.temperature());
    });
 
-  $("#temperature").css({'color' : 'orange', 'font-size' : '200%'});
+  $("#temperature").css({'color' : 'rgb(255, 255, 0)', 'font-size' : '200%'});
 
 
 // });
