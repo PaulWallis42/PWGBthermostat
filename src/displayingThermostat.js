@@ -1,4 +1,4 @@
-$(document).ready(function() {
+// $(document).ready(function() {
 
  var thermostat = new Thermostat();
 
@@ -23,4 +23,4 @@ $(document).ready(function() {
   $("#temperature").css({'color' : 'orange', 'font-size' : '200%'});
 
 
-});
+// });

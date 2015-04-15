@@ -26,5 +26,8 @@ describe('Thermostat', function() {
     expect('#temperature').toContainText('20');
   });
 
+  // it('displays temperature in orange text when between 18 and 24', function(){
+  //   expect('#temperature').css('color').toEqual('orange')
+  // });
 
 });
