@@ -30,5 +30,12 @@ describe('Thermostat', function() {
     expect($('#temperature').css("color")).toEqual('rgb(255, 255, 0)');
   });
 
+  it("should show temperature in green if temp below 18", function() {
+    $("#down").click();
+    $("#down").click();
+    $("#down").click();
+    $("#down").click();
+    expect($('#temperature').css("color")).toEqual('rgb(0, 255, 0)');
+  });
 
 });
